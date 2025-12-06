@@ -25,7 +25,7 @@ const Contact = () => {
                     want to say hi, I'll try my best to get back to you!
                 </motion.p>
                 <motion.a
-                    href="mailto:akash.raj@example.com"
+                    href="mailto:your.email@example.com"
                     class="btn btn-primary"
                     initial={{ opacity: 0, scale: 0.8 }}
                     whileInView={{ opacity: 1, scale: 1 }}
@@ -35,9 +35,9 @@ const Contact = () => {
                     Say Hello
                 </motion.a>
                 <div class="social-links">
-                    <a href="#" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://github.com/AkashRajSarraf" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/akashrajsarraf" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://twitter.com/AkashRajSarraf" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
                 </div>
             </div>
         </section>
