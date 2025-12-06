@@ -5,11 +5,11 @@ const Skills = () => {
     const skills = [
         { name: 'Java', icon: 'fa-brands fa-java' },
         { name: 'Spring Boot', icon: 'fa-solid fa-leaf' },
-        { name: 'Microservices', icon: 'fa-solid fa-server' },
-        { name: 'HTML5', icon: 'fa-brands fa-html5' },
-        { name: 'CSS3', icon: 'fa-brands fa-css3-alt' },
-        { name: 'JavaScript', icon: 'fa-brands fa-js' },
+        { name: 'Microservices', icon: 'fa-solid fa-network-wired' },
         { name: 'React', icon: 'fa-brands fa-react' },
+        { name: 'Docker', icon: 'fa-brands fa-docker' },
+        { name: 'PostgreSQL', icon: 'fa-solid fa-database' },
+        { name: 'AWS', icon: 'fa-brands fa-aws' },
         { name: 'Git', icon: 'fa-brands fa-git-alt' },
     ];
 

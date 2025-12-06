@@ -4,19 +4,25 @@ import { motion } from 'framer-motion';
 const Projects = () => {
     const projects = [
         {
-            title: 'E-Commerce Platform',
-            description: 'A full-featured online store with cart functionality, user authentication, and payment gateway integration.',
-            tags: ['React', 'Node.js', 'MongoDB'],
+            title: 'Portfolio Website',
+            description: 'A modern, responsive portfolio built with React, Vite, and Framer Motion to showcase my skills and projects.',
+            tags: ['React', 'Vite', 'Framer Motion'],
+            github: 'https://github.com/AkashRajSarraf/Portfolio',
+            demo: 'https://AkashRajSarraf.github.io/Portfolio/',
         },
         {
-            title: 'Task Management App',
-            description: 'A productivity tool for managing daily tasks with drag-and-drop functionality and real-time updates.',
-            tags: ['Vue.js', 'Firebase', 'Tailwind'],
+            title: 'E-Commerce Backend API',
+            description: 'Scalable RESTful API for an e-commerce platform built with Spring Boot, featuring JWT auth and payment integration.',
+            tags: ['Java', 'Spring Boot', 'MySQL', 'JWT'],
+            github: 'https://github.com/AkashRajSarraf',
+            demo: '#',
         },
         {
-            title: 'Weather Dashboard',
-            description: 'A weather forecasting application that provides real-time data and visualizes trends using charts.',
-            tags: ['JavaScript', 'API Integration', 'Chart.js'],
+            title: 'Task Management System',
+            description: 'Full-stack task application with real-time updates, utilizing Spring Boot for the backend and React for the frontend.',
+            tags: ['Spring Boot', 'React', 'PostgreSQL'],
+            github: 'https://github.com/AkashRajSarraf',
+            demo: '#',
         },
     ];
 
@@ -77,8 +83,8 @@ const Projects = () => {
                                     ))}
                                 </div>
                                 <div class="project-links">
-                                    <a href="#" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
-                                    <a href="#" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
+                                    <a href={project.github} target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> Code</a>
+                                    <a href={project.demo} target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live</a>
                                 </div>
                             </div>
                         </motion.article>
